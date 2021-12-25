@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flexor website / Responsive layout 4</title>
+    <!-- External css file  -->
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+
+    <!-- Font Aweosme cdn link  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Google  font cdn link  -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container flex">
+            <a href="#" class="logo">Flexor</a>
+            <label for="show-menu" class="show-menu">
+                <i class="fas fa-bars" id="btn"></i>
+            </label>
+            <input type="checkbox" id="show-menu" role="button">
+            <nav id="menu" class="navbar">
+                <ul class="flex" >
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#About">About</a>
+                    </li>
+                    <li>
+                        <a href="#Services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a href="#Pricing">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li class="drop-down">
+                        <a href="#">Drop Down <i class="fas fa-chevron-down"></i></a>
+                        <ul class="drop-down-container">
+                            <li><a href="#">Drop Down1</a></li>
+                            <li class="sub-drop-down">
+                                <a href="#">Drop Down2 <i class="fas fa-chevron-right"></i></a>
+                                <ul class="DeepDropdown">
+                                    <li><a href="#">Deep  Down 1</a></li>
+                                    <li><a href="#">Deep  Down 2</a></li>
+                                    <li><a href="#">Deep  Down 3</a></li>
+                                    <li><a href="#">Deep  Down 4</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Drop Down3</a></li>
+                            <li><a href="#">Drop Down4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contact">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+  <main>
+      <section id="Post-breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-container">
+                <h5 class="all-pages"> <span class="activelink">Home</span>/ Blog</h5>
+                <h4 class="current-page">
+                    Blog
+                </h4>
+            </div>
+         </div>
+      </section>
+      <section id="blog-post">
+        <div class="container flex">
+            <article class="flex-32">
+                <figure>
+                    <img src="assets/media/blog-1.jpg" alt="blog post">
+                </figure>
+                 <div class="post-content">
+                    <header>
+                        <h3>
+                            Lorem ipsum dolor sit, amet consectetur 
+                            adipisicing elit. Sapiente.
+                        </h3>
+                    </header>
+                    <div class="post-info flex">
+                        <div class="post-user">
+                           <i class="fas fa-user" aria-hidden="true"></i>
+                            <a href="#" class="username">
+                                Jhon Doe
+                            </a>
+                        </div>
+    
+                        <div class="post-time">
+                            <i class="far fa-clock" aria-hidden="true"></i>
+                            <a href="#" class="post-date">
+                                Jan,1 2020
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="post-description">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. In quod odit nam 
+                            impedit dignissimos. Lorem ipsum dolor, 
+                            sit amet consectetur adipisicing elit.
+                             Numquam, nulla. Lorem ipsum dolor sit.
+                        </p>
+                    </div>
+    
+                    <div class="post-btn flex">
+                        <a href="#" class="btn">
+                            Read More
+                        </a>
+                    </div>
+                 </div>
+            </article>
+            <article class="flex-32">
+                <figure>
+                    <img src="assets/media/blog-2.jpg" alt="blog post">
+                </figure>
+                 <div class="post-content">
+                    <header>
+                        <h3>
+                            Lorem ipsum dolor sit, amet consectetur 
+                            adipisicing elit. Sapiente.
+                        </h3>
+                    </header>
+                    <div class="post-info flex">
+                        <div class="post-user">
+                           <i class="fas fa-user" aria-hidden="true"></i>
+                            <a href="#" class="username">
+                                Jhon Doe
+                            </a>
+                        </div>
+    
+                        <div class="post-time">
+                            <i class="far fa-clock" aria-hidden="true"></i>
+                            <a href="#" class="post-date">
+                                Jan,1 2020
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="post-description">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. In quod odit nam 
+                            impedit dignissimos. Lorem ipsum dolor, 
+                            sit amet consectetur adipisicing elit.
+                             Numquam, nulla. Lorem ipsum dolor sit.
+                        </p>
+                    </div>
+    
+                    <div class="post-btn flex">
+                        <a href="#" class="btn">
+                            Read More
+                        </a>
+                    </div>
+                 </div>
+            </article>
+
+            <article class="flex-32">
+                <figure>
+                    <img src="assets/media/blog-3.jpg" alt="blog post">
+                </figure>
+                 <div class="post-content">
+                    <header>
+                        <h3>
+                            Lorem ipsum dolor sit, amet consectetur 
+                            adipisicing elit. Sapiente.
+                        </h3>
+                    </header>
+                    <div class="post-info flex">
+                        <div class="post-user">
+                           <i class="fas fa-user" aria-hidden="true"></i>
+                            <a href="#" class="username">
+                                Jhon Doe
+                            </a>
+                        </div>
+    
+                        <div class="post-time">
+                            <i class="far fa-clock" aria-hidden="true"></i>
+                            <a href="#" class="post-date">
+                                Jan,1 2020
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="post-description">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. In quod odit nam 
+                            impedit dignissimos. Lorem ipsum dolor, 
+                            sit amet consectetur adipisicing elit.
+                             Numquam, nulla. Lorem ipsum dolor sit.
+                        </p>
+                    </div>
+    
+                    <div class="post-btn flex">
+                        <a href="#" class="btn">
+                            Read More
+                        </a>
+                    </div>
+                 </div>
+            </article>
+            <article class="flex-32">
+                <figure>
+                    <img src="assets/media/blog-4.jpg" alt="blog post">
+                </figure>
+                 <div class="post-content">
+                    <header>
+                        <h3>
+                            Lorem ipsum dolor sit, amet consectetur 
+                            adipisicing elit. Sapiente.
+                        </h3>
+                    </header>
+                    <div class="post-info flex">
+                        <div class="post-user">
+                           <i class="fas fa-user" aria-hidden="true"></i>
+                            <a href="#" class="username">
+                                Jhon Doe
+                            </a>
+                        </div>
+    
+                        <div class="post-time">
+                            <i class="far fa-clock" aria-hidden="true"></i>
+                            <a href="#" class="post-date">
+                                Jan,1 2020
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="post-description">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. In quod odit nam 
+                            impedit dignissimos. Lorem ipsum dolor, 
+                            sit amet consectetur adipisicing elit.
+                             Numquam, nulla. Lorem ipsum dolor sit.
+                        </p>
+                    </div>
+    
+                    <div class="post-btn flex">
+                        <a href="#" class="btn">
+                            Read More
+                        </a>
+                    </div>
+                 </div>
+            </article>
+            <article class="flex-32">
+                <figure>
+                    <img src="assets/media/blog-5.jpg" alt="blog post">
+                </figure>
+                 <div class="post-content">
+                    <header>
+                        <h3>
+                            Lorem ipsum dolor sit, amet consectetur 
+                            adipisicing elit. Sapiente.
+                        </h3>
+                    </header>
+                    <div class="post-info flex">
+                        <div class="post-user">
+                           <i class="fas fa-user" aria-hidden="true"></i>
+                            <a href="#" class="username">
+                                Jhon Doe
+                            </a>
+                        </div>
+    
+                        <div class="post-time">
+                            <i class="far fa-clock" aria-hidden="true"></i>
+                            <a href="#" class="post-date">
+                                Jan,1 2020
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="post-description">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. In quod odit nam 
+                            impedit dignissimos. Lorem ipsum dolor, 
+                            sit amet consectetur adipisicing elit.
+                             Numquam, nulla. Lorem ipsum dolor sit.
+                        </p>
+                    </div>
+    
+                    <div class="post-btn flex">
+                        <a href="#" class="btn">
+                            Read More
+                        </a>
+                    </div>
+                 </div>
+            </article>
+
+            <article class="flex-32">
+                <figure>
+                    <img src="assets/media/blog-6.jpg" alt="blog post">
+                </figure>
+                 <div class="post-content">
+                    <header>
+                        <h3>
+                            Lorem ipsum dolor sit, amet consectetur 
+                            adipisicing elit. Sapiente.
+                        </h3>
+                    </header>
+                    <div class="post-info flex">
+                        <div class="post-user">
+                           <i class="fas fa-user" aria-hidden="true"></i>
+                            <a href="#" class="username">
+                                Jhon Doe
+                            </a>
+                        </div>
+    
+                        <div class="post-time">
+                            <i class="far fa-clock" aria-hidden="true"></i>
+                            <a href="#" class="post-date">
+                                Jan,1 2020
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="post-description">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. In quod odit nam 
+                            impedit dignissimos. Lorem ipsum dolor, 
+                            sit amet consectetur adipisicing elit.
+                             Numquam, nulla. Lorem ipsum dolor sit.
+                        </p>
+                    </div>
+    
+                    <div class="post-btn flex">
+                        <a href="#" class="btn">
+                            Read More
+                        </a>
+                    </div>
+                 </div>
+            </article>
+
+            <!-- Pagination starts here  -->
+            
+            <div class="Pagination-container flex">
+                <div class="next-page middle"><i class="fas fa-chevron-left"></i></div>
+                <div class="page-number middle">1</div>
+                <div class="page-number middle active-page">2</div>
+                <div class="previous-page middle"><i class="fas fa-chevron-right"></i></div>
+            </div>
+            <!-- Pagination ends here  -->
+        </div>
+      </section>
+  </main>
+    <!-- Footer section starts here  -->
+    <footer>
+        <section class="footer-content">
+            <div class="container flex">
+                <div class="col flex-20">
+                    <div class="footer-logo">
+                        <a href="#" class="logo">Flexor</a>
+                        <address>
+                            <p>
+                                A108 Adam Street,<br>
+                                New York, NY 535022  <br>
+                                United States
+                           </p>
+                           <div class="phone-email">
+                               <p>Phone:<span> +1 123 456 789<span></p>
+                               <p>Email:<span>info@example.com<span></span></p>
+                           </div>
+                        </address>
+                    </div>
+                   </div> 
+                    <div class="col flex-20">
+                        <h4 class="col-heading">Useful Links</h4>
+                        <nav class="links">
+                            <ul>
+                                <li><i class="fas fa-chevron-right"></i><a href="#">Home</a></li>
+                                <li><i class="fas fa-chevron-right"></i><a href="#about">About us</a></li>
+                                <li><i class="fas fa-chevron-right"></i><a href="#services">Services</a></li>
+                                <li><i class="fas fa-chevron-right"></i><a href="#">Terms of service</a></li>
+                                <li><i class="fas fa-chevron-right"></i><a href="#">Privacy policy</a></li>
+                            </ul>
+                        </nav>    
+                    </div>
+    
+                    <div class="col flex-20">
+                        <h4 class="col-heading">Our Services</h4>
+                        <nav class="links">
+                            <ul>
+                                <li><i class="fas fa-chevron-right"></i><a href="#">Web Design</a></li>
+                                <li><i class="fas fa-chevron-right"></i><a href="#about">Web  Development</a></li>
+                                <li><i class="fas fa-chevron-right"></i><a href="#services">Product Management</a></li>
+                                <li><i class="fas fa-chevron-right"></i><a href="#">Marketing</a></li>
+                                <li><i class="fas fa-chevron-right"></i><a href="#">Graphic Design</a></li>
+                            </ul>
+                        </nav>    
+                    </div>
+    
+                    
+                    <div class="col-newsletter flex-20">
+                        <h4 class="col-heading">Join Our Newsletter</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Rem corporis sapiente
+                             eos dolore.
+                        </p>
+                        <div class="newsletter-container">
+                           <div class="news-btn">
+                               <a href="#">Subscribe</a>
+                           </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+
+        <section id="Copyright">
+           <div class="container flex">
+            <small>
+                <p>
+                   &copy; Copyrigths <span class="dark">Flexor</span>. All Rights Reserved 
+                   <br>
+                   Design By <a href="#" class="activelink">BootstrapMade</a>
+                </p>
+           </small>
+           <div class="social-container flex">
+               <div class="social-box middle">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+               </div>
+               <div class="social-box middle">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+             </div>
+             <div class="social-box middle">
+                <a href="#"><i class="fab fa-instagram"></i></i></a>
+             </div>
+             <div class="social-box middle">
+                <a href="#"><i class="fab fa-skype"></i></a>
+             </div>
+             <div class="social-box middle">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+             </div>
+           </div>
+          </div>
+        </section>
+
+        <div class="backtotop middle">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </footer>
+</body>
+</html>
