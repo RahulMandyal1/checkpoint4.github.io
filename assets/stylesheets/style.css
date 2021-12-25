@@ -75,8 +75,8 @@ a{
 .logo{
 	margin-right: auto;
 	font-size: 2.5rem;
-	color: #9D9491;
-	font-weight: 700;
+	color: #635551;
+	font-weight: 800;
   }
 ::placeholder{
 	font-family: 'Raleway', sans-serif;
@@ -198,6 +198,7 @@ h5{
 	border: 3rem;	
 	border-radius: 3rem;
 }
+
 /* header starts here  */
 .header {
 	position: fixed;
@@ -317,13 +318,13 @@ main{
 
 #home .btn{
 	color: white;
-    padding: 0.7rem 1rem 0.6rem 6rem;
+    padding: 0.7rem 2rem 0.6rem 6rem;
     border-radius: 2rem;
     background-color: rgba(0, 0, 0, 0.4);
 	position: relative;
 	margin: 3rem 0;
 }
-#home .btn .circle-btn i{
+#home .btn .circle-btn {
 	font-size: 1.2rem;
     color: white;
     padding: 2rem;
@@ -334,8 +335,8 @@ main{
 	left: 0;
 	
 }
-#home .btn:hover{
-	background: rgb(234,84,40);
+#btn-hover:hover{
+	background:black;
 }
 
 /* Home section ends here  */
@@ -510,11 +511,24 @@ main{
 	font-size: 1.3rem;
 	font-weight: 600;
 }
+#Service .card-image :hover{
+	width: 9rem;
+	height: 6rem;
+	border: .1rem solid #EA5433;
+	border-radius:50%;
+	color: #EA5433;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
 /* Services section ends here  */
 #Blog{
-	background: #fff;
-	
-	
+	background: #fff;	
+}
+#Blog a{
+	color: #333232;
 }
 #Blog .container .flex-48 {
 	position: relative;
@@ -598,6 +612,9 @@ main{
 
 #portfolio{
 	background: #fff;
+}
+#portfolio a{
+	color: #2F2D31;
 }
 #portfolio .section-intro{
 	text-align: center;	
@@ -950,7 +967,7 @@ footer .col-newsletter .newsletter-container .news-btn{
 	bottom: 0;
 	background: #EA5433;
 	text-align: center;
-	font-size: 1rem;
+	font-size: 1.7rem;
 	padding: .5rem 3.2rem;
 	border-radius: 3rem;
 }
@@ -970,7 +987,7 @@ footer #Copyright  .activelink{
 }
 
 footer .backtotop{
-	position: absolute;
+	position: fixed;
 	
 	bottom: 4rem;
 	right: 4rem;
@@ -1041,7 +1058,7 @@ footer .footer-links{
     font-weight: 800;
 	
 }
-}
+
 #blog-post article h3:hover{
 	color: #EA5433;
 }
@@ -1078,6 +1095,9 @@ footer .footer-links{
 	color: #fff;
 }
 
+#blog-post  .post-btn .btn:hover{
+	background-color: rgb(234, 87, 70);
+}
 #blog-post  .Pagination-container{
     width: 19rem;
     height: 3rem;
@@ -1085,10 +1105,7 @@ footer .footer-links{
 	color: #655753;
 	
 }
-#blog-post  .Pagination-container div:hover{
-    background: #EA5433;
-    color: #fff;
-}
+
 #blog-post .Pagination-container div{
 	background: #fff;
     width: 4rem;
@@ -1111,6 +1128,9 @@ footer .footer-links{
 		  font-size: 55%;
 	  }
 	  
+#home{
+	background-position: center center;
+}
 
 .flex-20{
 	flex: 0 1 48%;
@@ -1153,7 +1173,7 @@ header nav{
 	top: 0;
 	border: 0;
 	padding-top: 10%;
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.8);
 	width: 100%;
 	height: 100vh;
 	
@@ -1193,8 +1213,8 @@ footer .flex-20{
 	margin: 0 0 2rem 0;
 }
 
-footer .col-newsletter .newsletter-container .news-btn{
-	font-size: .8rem;
+.news-btn a{
+	font-size: 1.7rem;
 }
 /* About section ends here  */
 /* Blog section starts here  */
@@ -1214,11 +1234,13 @@ footer #Copyright  .container{
 	flex-flow: column wrap;
 	align-items: center;
 }
-
+footer #Copyright .social-container{
+	margin: 2rem;
+}
 
 }
 
-@media screen and (max-width:480px){
+@media (max-width:480px){
 	
 .flex-20{
 	flex: 0 1 100%;
@@ -1242,4 +1264,9 @@ footer #Copyright  .container{
 .flex-23{
 	flex: 0 1 100%;
 } 
+
+footer .flex-20{
+	flex: 1 1 100%;
+}
+
 }
