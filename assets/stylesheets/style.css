@@ -304,6 +304,9 @@ main{
 	padding: 0rem;
 	z-index: -1;
 }
+#home .container .home-content{
+	margin: 15rem 0 0 0;
+}
 
 #home .container h1{
 	font-size: 4rem;
@@ -316,15 +319,19 @@ main{
 	font-weight: 500;
 }
 
-#home .hover-btn{
+#Call-to-action{
 	color: white;
     padding: 0.7rem 2rem 0.6rem 6rem;
     border-radius: 2rem;
-    background-color: rgba(0, 0, 0, 0.4);
+    background: rgba(88, 75, 72, 0.8);
 	position: relative;
 	margin: 3rem 0;
+	
 }
-#home .hover-btn .circle-btn {
+ #Call-to-action:hover{
+	background: red;
+}
+ #Call-to-action  .circle-btn {
 	font-size: 1.2rem;
     color: white;
     padding: 2rem;
@@ -334,10 +341,8 @@ main{
 	top: -1rem;
 	left: 0;
 	
-}
-.hover-btn :hover{
-	background: rgb(236,112,72);
-}
+} 
+
 
 /* Home section ends here  */
 /* Another  section starts here  */
@@ -473,6 +478,10 @@ main{
 #Our-Client{
 	background: #fff;
 }
+#Our-Client .flex-10{
+	position: relative;
+}
+
 
 
 /* Our client section ends here  */
